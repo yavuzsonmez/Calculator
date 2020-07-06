@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+html, body{
+  background-color: #181818;
+  color: white;
+}
+button {
+  height: 100px;
+  width: 100px;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#calculator {
+  padding-left: 24px;
+  padding-top: 15px;
+  height: 600px;
+  width: 500px;
+}
+.center-div {
+  border-radius: 10px;
+  border: white solid 1px;
+  background: #00003f;
+  margin: 0 auto;
+  margin-top: 7%;
+  width: 450px;
+  height: 575px;
+}
+
+#clear, #zero {
+  width: 200px;
+}
+
+#equals {
+  height: 200px;
+  position: absolute;
+  color: white;
+  background-color: #800000;
+}
+
+#display {
+  margin-bottom: -13px;
+  margin-top: 20px;
+  margin-left: 24px;
+  border-radius: 5px;
+  border: white solid 1px;
+  background-color: #080808;
+  text-align: right;
+  height: 30px;
+  width: 398px;
+  font-size: 26px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 35px;
+  font-family: "Roboto Mono";
+}
+
+
+#decimal, #zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+  background-color: #181818;
+}
+
+#clear{
+  background-color: #800000;
+}
+
+#subtract {
+  background-color: #2B0A9B;
+}
+
+#multiply{
+  background-color: #2B0A9B;
+}
+
+#divide{
+  background-color: #2B0A9B;
+}
+#add {
+  background-color: #2B0A9B;
+}
+
+#disp {
+  display: inline;
+  padding-right: 12px;
+}
+
+h3, a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  color: red;
 }
