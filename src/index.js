@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+/* eslint no-eval: 0 */
 class Keypad extends React.Component {
-  constructor(props) {
-  super(props);
-}
+
   render(){
     return (
         <div class="center-div">
@@ -89,8 +88,8 @@ class App extends React.Component {
 
     calculate = () => {
 
-      const regex = /[-+\/*]{2,}/g;
-const regx = /[-+\/*]/g;
+      const regex = /[-+/*]{2,}/g;
+const regx = /[-+/*]/g;
       
     const regex_counter = (toTest) =>{
         let count = 0;
