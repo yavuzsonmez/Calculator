@@ -38,7 +38,7 @@ class Keypad extends React.Component {
           <button name="." id="decimal" onClick={e => this.props.onClick(e.target.name)}>.</button>
         </div>
         </div><h3>Designed & Coded by <a href="yavuzsonmez.com">Yavuz Sönmez</a></h3>
-        <h3><a href="yavuzsonmez.com/portofolio">Return to my Portofolio </a></h3>
+        <h3><a href="yavuzsonmez.com/portofolio">Return to Portofolio </a></h3>
         
         </div>
     )}};
