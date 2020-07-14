@@ -3,4 +3,4 @@
 **Calculatrice**
 
 
-**Stack: Html, Css, Javascript, React**
+**Stack: Html, Css, Javascript, React, regex**
