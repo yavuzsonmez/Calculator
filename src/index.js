@@ -37,8 +37,8 @@ class Keypad extends React.Component {
           <button name="0" id="zero" onClick={e => this.props.onClick(e.target.name)}>0</button>
           <button name="." id="decimal" onClick={e => this.props.onClick(e.target.name)}>.</button>
         </div>
-        </div><h3>Designed & Coded by <a href="yavuzsonmez.com">Yavuz Sönmez</a></h3>
-        <h3><a href="yavuzsonmez.com/portofolio">Return to Portofolio </a></h3>
+        </div><h3>Designed & Coded by <a href="https://yavuzsonmez.com/">Yavuz Sönmez</a></h3>
+        <h3><a href="https://yavuzsonmez.com/portofolio">Return to Portofolio </a></h3>
         
         </div>
     )}};
